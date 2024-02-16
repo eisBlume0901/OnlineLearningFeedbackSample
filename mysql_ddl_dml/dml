@@ -1,0 +1,9 @@
+INSERT INTO feedback_responses (name, email, feedback, submissionDate)
+    VALUES ('Emerald Dendron Greenleaf', 'emeraldgreenleaf@bluebell.edu.nz',
+     '
+                       In my case, I am more productive when I am in the classroom.
+                        I am not saying that online class learning is not effective.
+                        It is just that I am more focused when I am in the classroom.
+                        I am more motivated to learn. I am more engaged in the discussion.
+                        I am more participative in the activities. I am more attentive to the teacher.
+    ', '2021-09-01')
