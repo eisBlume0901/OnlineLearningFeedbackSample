@@ -1,7 +1,8 @@
 body {
     font-family: Cartogothic, Nimbus Sans, Inter, serif;
-    margin: 0;
     color: dodgerblue;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 nav {
@@ -12,16 +13,17 @@ nav {
     align-items: center;
     padding: 1rem 5rem 1rem 5rem;
     overflow: hidden;
+    margin: auto;
 }
 
-.container {
+.navigation-bar {
     display: flex;
     align-content: center;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.container > a {
+.navigation-bar > a {
     margin: 0 0.5rem 0 0.5rem;
     color: white;
     text-decoration: none;
@@ -32,11 +34,17 @@ main {
     margin-top: 5rem;
 }
 
-.text {
+.about-text {
+    width: 70vw;
+    margin: auto;
     padding: 2rem 5rem 2rem 5rem;
-}
-footer > p {
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    margin: 5rem auto;
+    width: 100%;
 }
 
 h2 {
@@ -46,4 +54,67 @@ h2 {
 .text {
     text-align: center;
     font-style: italic;
+}
+
+/*
+CSS for index.html
+ */
+
+form {
+    width: 65vw;
+    margin: auto;
+}
+
+label {
+    display: block;
+    font-weight: 500;
+}
+
+input:not(input[type="submit"]), textarea {
+    width: inherit;
+    margin: 0.65rem 0 0.65rem 0;
+    border-radius: 0.25rem;
+    border: 0.08rem solid dodgerblue;
+}
+
+input:not(input[type="submit"]):active, textarea:active
+{
+    border: 0.1rem solid dodgerblue;
+}
+textarea {
+    height: 15vh;
+    padding: 0.65rem;
+    font-family: inherit;
+}
+
+input:not(input[type="submit"]) {
+    height: 1.5vh;
+    color: dodgerblue;
+    padding: 0.65rem;
+}
+
+input, label, textarea {
+    font-size: 1.09rem;
+}
+
+input[type="submit"] {
+    background-color: dodgerblue;
+    color: white;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: none;
+    cursor: pointer;
+    margin: 2.5rem auto auto auto;
+    display: block;
+    width: 30vw;
+}
+
+input[type="submit"]:hover {
+    background-color: lightskyblue;
+    font-weight: 600;
+
+}
+
+input[type="submit"]:active {
+    background-color: dodgerblue;
 }
