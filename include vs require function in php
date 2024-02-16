@@ -1,0 +1,20 @@
+include vs require in PHP
+
+include and require are both used to include a file in the current file.
+The difference is that if the file is not found, include will only produce
+a warning (E_WARNING) and the script will continue, while require will produce
+a fatal error (E_COMPILE_ERROR) and stop the script.
+
+include - warning error (the script can still be executed)
+require - compilation error (completely stop the script)
+
+USE CASE
+include
+Use it when the file is not critical to the script execution.
+Counter part in Java: import
+
+require
+Use it when the file is critical to the script execution.
+Good practice to use require when including files that contain functions or classes.
+Counter part in Java: import
+*/

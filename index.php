@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href="style.css" rel="stylesheet">
-    <title>Home</title>
-</head>
-<body>
-    <nav>
-        <h1>Online Class Learning</h1>
-        <div class="navigation-bar">
-            <a href="about.html">About</a>
-            <a href="feedback.html">Feedback</a>
-            <a href="index.html">Home</a>
-        </div>
-    </nav>
+<?php
+include 'component/header.php'; ?>
     <main>
         <h2>Feedback</h2>
         <p>Leave feedback for Bluebell University's Online Learning Setup</p>
@@ -27,10 +12,6 @@
             <textarea id="feedback" name="feedback" placeholder="Enter your feedback" required></textarea>
             <input type="submit" value="Send" name="send-submit">
         </form>
-
     </main>
-    <footer>
-        Copyright &copy; eisBlume0901
-    </footer>
-</body>
-</html>
+<?php
+include 'component/footer.php'; ?>
