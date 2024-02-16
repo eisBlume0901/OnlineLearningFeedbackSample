@@ -34,10 +34,9 @@ main {
     margin-top: 5rem;
 }
 
-.about-text {
+p {
     width: 70vw;
-    margin: auto;
-    padding: 2rem 5rem 2rem 5rem;
+    margin: 2rem auto 2rem auto;
     text-align: center;
 }
 
@@ -61,7 +60,7 @@ CSS for index.html
  */
 
 form {
-    width: 65vw;
+    width: 70vw;
     margin: auto;
 }
 
@@ -77,9 +76,10 @@ input:not(input[type="submit"]), textarea {
     border: 0.08rem solid dodgerblue;
 }
 
-input:not(input[type="submit"]):active, textarea:active
+input:not(input[type="submit"]):focus, textarea:focus
 {
     border: 0.1rem solid dodgerblue;
+    background-color: aliceblue;
 }
 textarea {
     height: 15vh;
@@ -117,4 +117,24 @@ input[type="submit"]:hover {
 
 input[type="submit"]:active {
     background-color: dodgerblue;
+}
+
+/* CSS for feedback.html */
+.feedback-cards {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    margin: auto;
+    width: 70vw;
+}
+
+.card {
+    border: 0.1rem solid dodgerblue;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+.card:hover {
+    background-color: aliceblue;
+    font-style: italic;
 }
