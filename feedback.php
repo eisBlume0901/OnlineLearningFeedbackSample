@@ -1,5 +1,5 @@
 <?php
-include 'component/header.php'; ?>
+include 'includes/header.php'; ?>
     <main>
         <h2>Feedback</h2>
         <div class="feedback-cards">
@@ -23,4 +23,4 @@ include 'component/header.php'; ?>
         </div>
     </main>
 <?php
-    include 'component/footer.php'; ?>
+    include 'includes/footer.php'; ?>

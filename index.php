@@ -1,5 +1,4 @@
-<?php
-include 'component/header.php'; ?>
+<?php include 'includes/header.php'; ?>
     <main>
         <h2>Feedback</h2>
         <p>Leave feedback for Bluebell University's Online Learning Setup</p>
@@ -14,4 +13,4 @@ include 'component/header.php'; ?>
         </form>
     </main>
 <?php
-include 'component/footer.php'; ?>
+include 'includes/footer.php'; ?>

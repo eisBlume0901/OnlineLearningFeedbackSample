@@ -1,5 +1,5 @@
 <?php
-    include 'component/header.php'; ?>
+    include 'includes/header.php'; ?>
     <main>
         <h2>About</h2>
             <p>
@@ -12,4 +12,4 @@
             </p>
     </main>
 <?php
-include 'component/footer.php'; ?>
+include 'includes/footer.php'; ?>

@@ -1,0 +1,17 @@
+CREATE DATABASE online_feedback_form_db;
+
+CREATE TABLE feedback_responses (
+     id INT PRIMARY KEY AUTO_INCREMENT,
+     name VARCHAR(255),
+     email VARCHAR(255),
+     feedback TEXT,
+     submissionDate DATE
+);
+
+ALTER TABLE feedback_responses
+MODIFY name VARCHAR(255) NOT NULL,
+MODIFY email VARCHAR(255) NOT NULL,
+MODIFY feedback TEXT NOT NULL;
+
+ALTER TABLE feedback_responses
+MODIFY submissionDate DATE NOT NULL;

@@ -132,7 +132,7 @@ input[type="submit"]:active {
     border: 0.1rem solid dodgerblue;
     padding: 1rem;
     margin: 0.5rem;
-}
+  }
 
 .card:hover {
     background-color: aliceblue;
